@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="ru" data-vue-meta="%7B%22lang%22:%7B%22ssr%22:%22ru%22%7D%7D">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,viewport-fit=cover,maximum-scale=1,user-scalable=0">
+    <meta name="referrer" content="unsafe-url">
+    <title>Как мировые валюты получили свои названия? / Хабр</title>
+    <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* non-breaking hyphen */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/l/font?kit=KFOlCnqEu92Fr1MmEU9vBh0_IsHAlmrO6g&skey=ee881451c540fdec&v=v29) format('woff2');
+      unicode-range: U+02011;
+    }
+
+    </style>
+    <link rel="preload" href="https://assets.habr.com/habr-web/css/chunk-vendors.1f09c56d.css"
+          as="style">
+    <link rel="preload" href="https://assets.habr.com/habr-web/js/chunk-vendors.6a222726.js"
+          as="script">
+    <link rel="preload" href="https://assets.habr.com/habr-web/css/app.06d3028d.css" as="style">
+    <link rel="preload" href="https://assets.habr.com/habr-web/js/app.e9ad2c70.js" as="script">
+    <link rel="stylesheet" href="https://assets.habr.com/habr-web/css/chunk-vendors.1f09c56d.css">
+    <link rel="stylesheet" href="https://assets.habr.com/habr-web/css/app.06d3028d.css">
+    <script>window.i18nFetch = new Promise((res, rej) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', '/js/i18n/ru-compiled.c1cfeee8d646b508dab711173767c35c.json');
+          xhr.responseType = 'json';
+          xhr.onload = function(e) {
+            if (this.status === 200) {
+              res({ru: xhr.response});
+            } else {
+              rej(e);
+            }
+          };
+          xhr.send();
+        });
+    </script>
+
+    <script data-vue-meta="ssr" type="application/ld+json" data-vmid="ldjson-schema">{
+        "@context": "http:\/\/schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/habr.com\/ru\/post\/393323\/"
+        },
+        "headline": "Как мировые валюты получили свои названия?",
+        "datePublished": "2016-04-27T16:50:08+03:00",
+        "dateModified": "2019-02-27T19:04:50+03:00",
+        "author": {
+            "@type": "Person",
+            "name": "Vitaliy Tsigulev"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Habr",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/habrastorage.org\/webt\/a_\/lk\/9m\/a_lk9mjkccjox-zccjrpfolmkmq.png"
+            }
+        },
+        "description": "На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имею...",
+        "url": "https:\/\/habr.com\/ru\/post\/393323\/#post-content-body",
+        "about": [
+            "h_lib",
+            "h_finance",
+            "f_develop",
+            "f_popsci"
+        ],
+        "image": [
+            "https:\/\/habrastorage.org\/files\/c5c\/556\/d05\/c5c556d05fe94267802a59ffe3dc0f75.jpg",
+            "https:\/\/habrastorage.org\/files\/71f\/99e\/59a\/71f99e59a24449289e055f1f0cba333d.png",
+            "https:\/\/habrastorage.org\/files\/27d\/01e\/60d\/27d01e60d3bd4f29b4a1f7bc6331c733.jpg",
+            "https:\/\/habrastorage.org\/files\/870\/2a5\/86e\/8702a586ec0c438e89acd3b11394e976.PNG",
+            "https:\/\/habrastorage.org\/files\/c22\/f9d\/eea\/c22f9deeaa3b442f82f6c4bfa175e116.PNG",
+            "https:\/\/habrastorage.org\/files\/08b\/ef2\/268\/08bef2268d2146ce85a35ceecfe6053c.PNG",
+            "https:\/\/habrastorage.org\/files\/bf2\/ee9\/6b6\/bf2ee96b651f4553a650434ceec90715.PNG",
+            "https:\/\/habrastorage.org\/files\/4eb\/d48\/40d\/4ebd4840de7b4951a6bb38ae998f4972.PNG",
+            "https:\/\/habrastorage.org\/files\/61c\/082\/ac5\/61c082ac5a794f5091acc92b00c06dc3.JPG",
+            "https:\/\/habrastorage.org\/files\/e76\/de0\/a27\/e76de0a271bc460e8ebf2bd1ce8ac209.PNG",
+            "https:\/\/habrastorage.org\/files\/f65\/e5c\/ff3\/f65e5cff3ca141898e70c91d1a6e5f45.jpg",
+            "https:\/\/habrastorage.org\/files\/4c4\/b22\/477\/4c4b2247747b4418b4bbd0aef623da89.png",
+            "https:\/\/habrastorage.org\/files\/b91\/fcb\/d8a\/b91fcbd8aa1940e296447510ca5b5a4c.PNG",
+            "https:\/\/habrastorage.org\/files\/518\/22e\/201\/51822e2018554f96aea26fec7717f290.PNG",
+            "https:\/\/habrastorage.org\/files\/72c\/c9d\/6ed\/72cc9d6ed44f4241ba99af169240d617.jpg"
+        ]
+    }</script>
+    <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+    <style>.grecaptcha-badge{visibility: hidden;}</style>
+    <meta name="habr-version" content="2.96.0">
+
+    <meta data-vue-meta="ssr" property="fb:app_id" content="444736788986613">
+    <meta data-vue-meta="ssr" property="fb:pages" content="472597926099084">
+    <meta data-vue-meta="ssr" name="twitter:card" content="summary_large_image">
+    <meta data-vue-meta="ssr" name="twitter:site" content="@habr_com">
+    <meta data-vue-meta="ssr" property="og:site_name" content="Хабр" data-vmid="og:site_name">
+    <meta data-vue-meta="ssr" property="og:title"
+          content="Как мировые валюты получили свои названия?" data-vmid="og:title">
+    <meta data-vue-meta="ssr" name="twitter:title"
+          content="Как мировые валюты получили свои названия?" data-vmid="twitter:title">
+    <meta data-vue-meta="ssr" name="aiturec:title"
+          content="Как мировые валюты получили свои названия?" data-vmid="aiturec:title">
+    <meta data-vue-meta="ssr" name="description"
+          content="На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное..."
+          data-vmid="description">
+    <meta data-vue-meta="ssr" itemprop="description"
+          content="На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное..."
+          data-vmid="description:itemprop">
+    <meta data-vue-meta="ssr" property="og:description"
+          content="На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное..."
+          data-vmid="og:description">
+    <meta data-vue-meta="ssr" name="twitter:description"
+          content="На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное..."
+          data-vmid="twitter:description">
+    <meta data-vue-meta="ssr" property="aiturec:description"
+          content="На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное..."
+          data-vmid="aiturec:description">
+    <meta data-vue-meta="ssr" itemprop="image"
+          content="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/"
+          data-vmid="image:itemprop">
+    <meta data-vue-meta="ssr" property="og:image"
+          content="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/"
+          data-vmid="og:image">
+    <meta data-vue-meta="ssr" property="og:image:width" content="1200" data-vmid="og:image:width">
+    <meta data-vue-meta="ssr" property="og:image:height" content="630" data-vmid="og:image:height">
+    <meta data-vue-meta="ssr" property="aiturec:image"
+          content="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/"
+          data-vmid="aiturec:image">
+    <meta data-vue-meta="ssr" name="twitter:image"
+          content="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/"
+          data-vmid="twitter:image">
+    <meta data-vue-meta="ssr" property="vk:image"
+          content="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/?format=vk"
+          data-vmid="vk:image">
+    <meta data-vue-meta="ssr" property="aiturec:item_id" content="393323"
+          data-vmid="aiturec:item_id">
+    <meta data-vue-meta="ssr" property="aiturec:datetime" content="2016-04-27T13:50:08.000Z"
+          data-vmid="aiturec:datetime">
+    <meta data-vue-meta="ssr" content="https://habr.com/ru/post/393323/" property="og:url"
+          data-vmid="og:url">
+    <meta data-vue-meta="ssr" property="og:type" content="article" data-vmid="og:type">
+    <meta data-vue-meta="ssr" property="og:locale" content="ru_RU" data-vmid="og:locale">
+    <meta data-vue-meta="ssr" name="keywords"
+          content="Мировые валюты, деньги, монеты, рубль, доллар, песо, динар, купюры, названия, история">
+    <link data-vue-meta="ssr" href="https://habr.com/ru/rss/post/393323/?fl=ru"
+          type="application/rss+xml" title="" rel="alternate" name="rss">
+    <link data-vue-meta="ssr" href="https://habr.com/ru/post/393323/" rel="canonical"
+          data-vmid="canonical">
+    <link data-vue-meta="ssr" rel="image_src"
+          href="https://habr.com/share/publication/393323/061f1e704dc32b417509284e53cc9a3f/"
+          data-vmid="image:href">
+    <link data-vue-meta="ssr" rel="amphtml" href="https://habr.com/ru/amp/post/393323/">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#303b44">
+    <meta name="msapplication-TileColor" content="#629FBC">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link
+            rel="shortcut icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://assets.habr.com/habr-web/img/favicons/favicon-16.png"
+    >
+    <link
+            rel="shortcut icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://assets.habr.com/habr-web/img/favicons/favicon-32.png"
+    >
+    <link
+            rel="apple-touch-icon"
+            type="image/png"
+            sizes="76x76"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-76.png"
+    >
+    <link
+            rel="apple-touch-icon"
+            type="image/png"
+            sizes="120x120"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.png"
+    >
+    <link
+            rel="apple-touch-icon"
+            type="image/png"
+            sizes="152x152"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-152.png"
+    >
+    <link
+            rel="apple-touch-icon"
+            type="image/png"
+            sizes="180x180"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-180.png"
+    >
+    <link
+            rel="apple-touch-icon"
+            type="image/png"
+            sizes="256x256"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1136x640.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2436x1125.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1792x828.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_828x1792.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1334x750.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2668.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2208x1242.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1125x2436.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2208.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2732x2048.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2688x1242.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2224x1668.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_750x1334.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2048x2732.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2388x1668.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2224.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_640x1136.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2388.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_2048x1536.png"
+    >
+    <link
+            rel="apple-touch-startup-image"
+            media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+            href="https://assets.habr.com/habr-web/img/splashes/splash_1536x2048.png"
+    >
+    <link
+            rel="mask-icon"
+            color="#77a2b6"
+            href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.svg"
+    >
+    <link
+            crossorigin="use-credentials"
+            href="/manifest.webmanifest"
+            rel="manifest"
+    >
+    <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+<body>
+
+
+<div id="app" data-server-rendered="true" data-async-called="true">
+    <div class="tm-layout__wrapper"><!---->
+        <div></div> <!---->
+        <div class="tm-layout">
+            <div class="tm-page-progress-bar"></div>
+            <div data-menu-sticky="true"
+                 class="tm-base-layout__header tm-base-layout__header_is-sticky">
+                <div class="tm-page-width">
+                    <div class="tm-base-layout__header-wrapper">
+                        <div class="tm-main-menu">
+                            <div class="tm-main-menu__section">
+                                <nav class="tm-main-menu__section-content"><!----> <a
+                                        href="/ru/all/" class="tm-main-menu__item">
+                                    Все потоки
+                                </a> <a href="/ru/flows/develop/" class="tm-main-menu__item">
+                                    Разработка
+                                </a><a href="/ru/flows/admin/" class="tm-main-menu__item">
+                                    Администрирование
+                                </a><a href="/ru/flows/design/" class="tm-main-menu__item">
+                                    Дизайн
+                                </a><a href="/ru/flows/management/" class="tm-main-menu__item">
+                                    Менеджмент
+                                </a><a href="/ru/flows/marketing/" class="tm-main-menu__item">
+                                    Маркетинг
+                                </a><a href="/ru/flows/popsci/" class="tm-main-menu__item">
+                                    Научпоп
+                                </a></nav>
+                            </div>
+                        </div>
+                        <div class="tm-header-user-menu tm-base-layout__user-menu"><a
+                                href="/ru/search/"
+                                class="tm-header-user-menu__item tm-header-user-menu__search">
+                            <svg height="24" width="24"
+                                 class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_search tm-header-user-menu__icon_dark">
+                                <title>Поиск</title>
+                                <use xlink:href="/img/megazord-v27.36f146e6.svg#search"></use>
+                            </svg>
+                        </a> <!----> <!----> <!---->
+                            <div class="tm-header-user-menu__item tm-header-user-menu__user_desktop">
+                                <div class="tm-dropdown">
+                                    <div class="tm-dropdown__head">
+                                        <svg height="24" width="24" data-test-id="menu-toggle-guest"
+                                             class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_dark">
+                                            <title>Профиль</title>
+                                            <use xlink:href="/img/megazord-v27.36f146e6.svg#header-user"></use>
+                                        </svg> <!----></div> <!----></div> <!----></div> <!---->
+                        </div>
+                    </div>
+                </div>
+            </div> <!---->
+            <div class="tm-page-width"></div>
+            <main class="tm-layout__container">
+                <div hl="ru" data-async-called="true" class="tm-page">
+                    <div class="tm-page-width"><!---->
+                        <div class="tm-page__wrapper">
+                            <div class="tm-page__main tm-page__main_has-sidebar">
+                                <div class="pull-down">
+                                    <div class="pull-down__header" style="height:0px;">
+                                        <div class="pull-down__content" style="bottom:10px;">
+                                            <svg height="24" width="24"
+                                                 class="tm-svg-img pull-down__arrow"><title>
+                                                Обновить</title>
+                                                <use xlink:href="/img/megazord-v27.36f146e6.svg#pull-arrow"></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="tm-article-presenter">
+                                        <div class="tm-article-presenter__body">
+                                            <div class="tm-misprint-area">
+                                                <div class="tm-misprint-area__wrapper">
+                                                    <article
+                                                            class="tm-article-presenter__content tm-article-presenter__content_narrow">
+                                                        <div class="tm-article-presenter__header">
+                                                            <div class="tm-article-snippet tm-article-presenter__snippet">
+
+                                                                <h1 lang="ru"
+                                                                    class="tm-article-snippet__title tm-article-snippet__title_h1">
+                                                                    <span>Как мировые валюты получили свои названия?</span>
+                                                                </h1>
+                                                        </div> <!---->
+                                                        <div data-gallery-root="" lang="ru"
+                                                             class="tm-article-body">
+                                                            <div></div>
+                                                            <div id="post-content-body">
+                                                                <div>
+                                                                    <div class="article-formatted-body article-formatted-body article-formatted-body_version-1">
+                                                                        <div xmlns="http://www.w3.org/1999/xhtml">
+                                                                            <img src="https://habrastorage.org/r/w780q1/files/c5c/556/d05/c5c556d05fe94267802a59ffe3dc0f75.jpg"
+                                                                                 alt="image"
+                                                                                 align="left"
+                                                                                 data-src="https://habrastorage.org/files/c5c/556/d05/c5c556d05fe94267802a59ffe3dc0f75.jpg"
+                                                                                 data-blurred="true"/>На
+                                                                            сегодняшний день в мире
+                                                                            существует более 250
+                                                                            государств: 195
+                                                                            независимых государств,
+                                                                            10 стран с
+                                                                            неопределенным статусом,
+                                                                            46 территорий с особым
+                                                                            статусом, имеющих
+                                                                            постоянное население и
+                                                                            собственное гражданство,
+                                                                            и около 160 валют,
+                                                                            де-юре или де-факто
+                                                                            используемых на
+                                                                            различных территориях.
+                                                                            Таким образом, по
+                                                                            меньшей мере каждое
+                                                                            второе государство имеет
+                                                                            собственные деньги. О
+                                                                            некоторых валютах вы
+                                                                            даже слышали, другие
+                                                                            используете каждый день.
+                                                                            Но задумывались ли вы
+                                                                            хоть однажды, почему
+                                                                            рубль называют рублем?
+                                                                            Чему обязан своим
+                                                                            названием американский
+                                                                            доллар? Меня эта тема
+                                                                            очень заинтересовала, и
+                                                                            я решил провести
+                                                                            собственное
+                                                                            мини-исследование. Под
+                                                                            катом вы найдете истории
+                                                                            о том, как некоторые
+                                                                            мировые валюты получили
+                                                                            свои названия. <br/>
+                                                                            <a name="habracut"></a><br/>
+                                                                            <br/>
+                                                                            <h4>Рубль</h4><br/>
+                                                                            Денежной единицей
+                                                                            «рубль» пользуются в
+                                                                            России, Белоруссии,
+                                                                            непризнанной
+                                                                            Приднестровской
+                                                                            Молдавской Республике, а
+                                                                            также ряде других
+                                                                            непризнанных и частично
+                                                                            признанных государств.
+                                                                            Российскую сторублевку,
+                                                                            наверняка, видел каждый
+                                                                            из вас. А вот как
+                                                                            выглядят купюры
+                                                                            номиналом в 100
+                                                                            белорусских и 100
+                                                                            приднестровских
+                                                                            рублей:<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/r/w1560/files/71f/99e/59a/71f99e59a24449289e055f1f0cba333d.png"
+                                                                                 alt="image"
+                                                                                 data-src="https://habrastorage.org/files/71f/99e/59a/71f99e59a24449289e055f1f0cba333d.png"/><br/>
+                                                                            <br/>
+                                                                            Версией происхождения
+                                                                            слова «рубль» существует
+                                                                            множество. Но
+                                                                            большинство из них
+                                                                            сходятся в том, что
+                                                                            название валюты
+                                                                            происходит от глагола
+                                                                            «рубить». Согласно <a
+                                                                                href="http://etymolog.ruslang.ru/index.php?act=contents&amp;book=vasmer">Этимологическому
+                                                                            словарю Макса
+                                                                            Фасмера</a>, с
+                                                                            древнерусского рубль —
+                                                                            «обрубок». Первые
+                                                                            упоминания рубля как
+                                                                            денежной единицы
+                                                                            встречаются в
+                                                                            новгородских грамотах
+                                                                            XIII века. Позже
+                                                                            название закрепилось и
+                                                                            использовалось вместо
+                                                                            гривны. Древнерусская
+                                                                            гривна представляла
+                                                                            собой продолговатый
+                                                                            серебряный слиток весом
+                                                                            около 200 грамм и длиной
+                                                                            около 20 см. Вот так он
+                                                                            выглядел:<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/r/w780q1/files/27d/01e/60d/27d01e60d3bd4f29b4a1f7bc6331c733.jpg"
+                                                                                 alt="image"
+                                                                                 data-src="https://habrastorage.org/files/27d/01e/60d/27d01e60d3bd4f29b4a1f7bc6331c733.jpg"
+                                                                                 data-blurred="true"/><br/>
+                                                                            <br/>
+                                                                            По разным версиям, рубль
+                                                                            соответствовал половине
+                                                                            или четверти веса
+                                                                            гривны. Большинство
+                                                                            историков придерживаются
+                                                                            мнения, что таких частей
+                                                                            было все-таки 4.
+                                                                            Подтверждение этой
+                                                                            теории некоторые находят
+                                                                            в арабском языке, где
+                                                                            «рубъ» — четвертая часть
+                                                                            чего-либо. Для того
+                                                                            чтобы получить слиток,
+                                                                            равный 1 рублю прут
+                                                                            серебра (гривна) рубился
+                                                                            на части. Отсюда и
+                                                                            название «рубль» —
+                                                                            «отрубить», «обрубок».
+                                                                            Для обозначения веса на
+                                                                            слитках серебра
+                                                                            ставились зарубки.<br/>
+                                                                            <br/>
+                                                                            По другой версии, свое
+                                                                            название рубль получил
+                                                                            благодаря технологии
+                                                                            отливки новгородских
+                                                                            гривен. Серебро
+                                                                            заливалось в форму в 2
+                                                                            приема, из-за чего на
+                                                                            слитке оставался шов,
+                                                                            рубец, откуда также
+                                                                            могло пойти название
+                                                                            «рубль» — «слиток с
+                                                                            рубцом».<br/>
+                                                                            <br/>
+                                                                            <h4>Доллар</h4><br/>
+                                                                            Доллар — наиболее
+                                                                            распространенная в мире
+                                                                            валюта. Ее используют в
+                                                                            США, Австралии, Канаде,
+                                                                            Новой Зеландии, Панаме,
+                                                                            Эквадоре, Доминике,
+                                                                            Пуэрто-Рико и ряде
+                                                                            других стран.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/870/2a5/86e/8702a586ec0c438e89acd3b11394e976.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 канадских и 100
+                                                                                австралийских
+                                                                                долларов</em><br/>
+                                                                            <br/>
+                                                                            Согласно <a
+                                                                                href="http://www.oxforddictionaries.com/">Oxford
+                                                                            Dictionaries</a>, слово
+                                                                            доллар, а также
+                                                                            словенский толар,
+                                                                            находившийся в обращении
+                                                                            до 2007 года, происходит
+                                                                            от названия монеты
+                                                                            «иоахимсталер»
+                                                                            (joachimsthaler),
+                                                                            укороченного до «Талер»
+                                                                            (или «Далер» с
+                                                                            фламандского языка).
+                                                                            Монета получила названия
+                                                                            в честь долины, в
+                                                                            которой добывалось
+                                                                            серебро для ее чеканки —
+                                                                            «Долина Иоахима» (в
+                                                                            наст. время это
+                                                                            территория чешского
+                                                                            города Яхимов). Со
+                                                                            временем термин
+                                                                            трансформировался и стал
+                                                                            использоваться в других
+                                                                            языках, особенно в
+                                                                            нидерландском, а затем
+                                                                            долларом стали называть
+                                                                            монеты, которые
+                                                                            использовались в
+                                                                            испано-американских и
+                                                                            британских
+                                                                            североамериканских
+                                                                            колониях во время
+                                                                            американской войны за
+                                                                            независимость. В 1792
+                                                                            году «доллар» был принят
+                                                                            в качестве названия
+                                                                            денежной единицы
+                                                                            США.<br/>
+                                                                            <br/>
+                                                                            <h4>Фунт</h4><br/>
+                                                                            Фунт — денежная единица
+                                                                            Великобритании (фунт
+                                                                            стерлингов). Египет,
+                                                                            Ливан, Южный Судан,
+                                                                            Судан и Сирия также
+                                                                            называют свою валюту
+                                                                            фунт (египетский фунт,
+                                                                            ливанский фунт и т.д.).
+                                                                            Для отличия британской
+                                                                            валюты от одноименных
+                                                                            валют других стран в
+                                                                            официальных документах
+                                                                            используют полную форму
+                                                                            «фунт стерлингов».<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/c22/f9d/eea/c22f9deeaa3b442f82f6c4bfa175e116.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                50 фунтов стерлингов
+                                                                                и 100 египетских
+                                                                                фунтов</em><br/>
+                                                                            <br/>
+                                                                            Британский фунт
+                                                                            происходит от латинского
+                                                                            слова «pondus», что
+                                                                            означает «вес».
+                                                                            Существует несколько
+                                                                            версий происхождения
+                                                                            названия данной валюты.
+                                                                            По одной из них название
+                                                                            возникло в XII веке и
+                                                                            буквально означало «фунт
+                                                                            чистого серебра».
+                                                                            Крупные покупки выражали
+                                                                            в «фунтах стерлингов».
+                                                                            240 древних английских
+                                                                            монет, «стерлингов»,
+                                                                            имели массу
+                                                                            приблизительно в 1
+                                                                            тройский фунт.<br/>
+                                                                            <br/>
+                                                                            <h4>Песо</h4><br/>
+                                                                            В переводе с испанского
+                                                                            «песо» буквально
+                                                                            означает «вес». В
+                                                                            настоящее время валюта
+                                                                            используется в некоторых
+                                                                            странах — бывших
+                                                                            колониях Испании:
+                                                                            Аргентине, Доминиканской
+                                                                            Республике, Колумбии,
+                                                                            Мексике, Кубе,
+                                                                            Филиппинах, Чили и
+                                                                            Уругвае.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/08b/ef2/268/08bef2268d2146ce85a35ceecfe6053c.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 аргентинских и
+                                                                                100 мексиканских
+                                                                                песо</em><br/>
+                                                                            <br/>
+                                                                            Когда в начале XVI века
+                                                                            испанцы пришли на
+                                                                            американские земли, на
+                                                                            территорию современной
+                                                                            Мексики, как таковых
+                                                                            денег там не было.
+                                                                            Средством платежа
+                                                                            местных жителей были
+                                                                            какао-бобы. Тогда
+                                                                            испанскому конкистадору
+                                                                            Фернандо Кортесу был
+                                                                            отдан приказ отливать в
+                                                                            монеты все золото, какое
+                                                                            он найдет на <a
+                                                                                href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%86%D0%B5-%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F">«новоиспанской»
+                                                                            земле</a>. Но Кортес
+                                                                            ослушался. Из чистого
+                                                                            золота он стал чеканить
+                                                                            только часть монет,
+                                                                            другие же были сделаны
+                                                                            из меди с небольшой
+                                                                            примесью золота. В
+                                                                            результате появилось
+                                                                            несколько типов монет,
+                                                                            которые оценивались по
+                                                                            весу золота в них. Самый
+                                                                            дорогой — золотой песо,
+                                                                            наименее ценный — песо
+                                                                            из тепуске, т.е. из меди
+                                                                            и золотой крошки. По
+                                                                            некоторым данным оттуда
+                                                                            же пошло и название
+                                                                            песо.<br/>
+                                                                            <br/>
+                                                                            <h4>Динар</h4><br/>
+                                                                            Валюту динар используют
+                                                                            Алжир, Бахрейн, Ирак,
+                                                                            Иордания, Кувейт, Ливия,
+                                                                            Сербия, Македония,
+                                                                            Тунис. Слово «динар»
+                                                                            произошло от названия
+                                                                            серебряной монеты
+                                                                            «динарий», широко
+                                                                            распространенной на
+                                                                            территории Римской
+                                                                            империи. В свою очередь
+                                                                            слово «динарий»
+                                                                            происходит от латинского
+                                                                            «denarius» — «состоящий
+                                                                            из десяти».<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/bf2/ee9/6b6/bf2ee96b651f4553a650434ceec90715.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 сербских и 20
+                                                                                бахрейнских
+                                                                                динар</em><br/>
+                                                                            <br/>
+                                                                            Слово «динар»
+                                                                            упоминается также в
+                                                                            Коране. Наряду с двумя
+                                                                            другими терминами —
+                                                                            дирхам и кантар — в
+                                                                            священной книге
+                                                                            мусульман динар
+                                                                            используется для
+                                                                            обозначения денежных
+                                                                            эквивалентов.<br/>
+                                                                            <br/>
+                                                                            <h4>Польский злотый</h4>
+                                                                            <br/>
+                                                                            «Злотый» с польского
+                                                                            «złoto» переводится как
+                                                                            «золото». Впервые термин
+                                                                            появился в XV веке для
+                                                                            обозначения поступавших
+                                                                            в Польшу золотых монет
+                                                                            иностранной чеканки,
+                                                                            главным образом, золотых
+                                                                            дукатов.<br/>
+                                                                            <br/>
+                                                                            <h4>Крона</h4><br/>
+                                                                            Денежная единица ряда
+                                                                            европейских стран, в
+                                                                            число которых входят
+                                                                            Чехия, Дания, Исландия,
+                                                                            Норвегия и Швеция. Слово
+                                                                            «крона» происходит от
+                                                                            латинского «corona»
+                                                                            (англ. crown, нем.
+                                                                            krone) и переводится как
+                                                                            «корона». Именно корона,
+                                                                            изображенная на монетах
+                                                                            «куронндор» (первых
+                                                                            кронах), отчеканенных во
+                                                                            Франции в 1340 году,
+                                                                            дала название новой
+                                                                            валюте.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/4eb/d48/40d/4ebd4840de7b4951a6bb38ae998f4972.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 чешских и 100
+                                                                                шведских
+                                                                                крон</em><br/>
+                                                                            <br/>
+                                                                            <h4>Лира</h4><br/>
+                                                                            В настоящее время лира
+                                                                            является национальной
+                                                                            валютой Турции. До
+                                                                            перехода на евро свою
+                                                                            лиру имели еще 4
+                                                                            государства: Италия,
+                                                                            Ватикан, Сан-Марино и
+                                                                            Мальта.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/61c/082/ac5/61c082ac5a794f5091acc92b00c06dc3.JPG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюра номиналом в
+                                                                                100 турецких
+                                                                                лир</em><br/>
+                                                                            <br/>
+                                                                            В переводе «лира» (от
+                                                                            лат. «libra») означает
+                                                                            «фунт». Так же, как и
+                                                                            британский фунт,
+                                                                            название происходит от
+                                                                            единицы веса — тройского
+                                                                            фунта, служившего для
+                                                                            взвешивания
+                                                                            серебра.<br/>
+                                                                            <br/>
+                                                                            <h4>Венгерский
+                                                                                форинт</h4><br/>
+                                                                            Название валюты
+                                                                            происходит от
+                                                                            итальянского «флорина» —
+                                                                            золотой монеты «fiorino
+                                                                            d’oro» (золотой флорин),
+                                                                            которую в середине XIII
+                                                                            века начали чеканить во
+                                                                            Флоренции. Век спустя в
+                                                                            подражание флорину в
+                                                                            Венгрии выпустили
+                                                                            собственные монеты.
+                                                                            Постепенно монеты
+                                                                            приобрели оригинальный
+                                                                            внешний вид, а название
+                                                                            трансформировалось в
+                                                                            «форинт». <br/>
+                                                                            <br/>
+                                                                            <h4>Риал</h4><br/>
+                                                                            Риал — денежная единица
+                                                                            Омана, Ирана, Катара,
+                                                                            Саудовской Аравии и
+                                                                            Йемена. С латыни «риал»
+                                                                            («regalis») дословно
+                                                                            переводится как
+                                                                            «королевский». Название
+                                                                            валюты пришло в арабский
+                                                                            язык из Европы и
+                                                                            обозначало популярные
+                                                                            европейские монеты:
+                                                                            талер, пиастр,
+                                                                            соверен.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/e76/de0/a27/e76de0a271bc460e8ebf2bd1ce8ac209.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 иранских и 100
+                                                                                саудовских
+                                                                                риалов</em><br/>
+                                                                            <br/>
+                                                                            <h4>Реал</h4><br/>
+                                                                            Не путать с риалом.
+                                                                            Денежная единица
+                                                                            Бразилии. До перехода на
+                                                                            евро валютой
+                                                                            пользовались также в
+                                                                            Испании и
+                                                                            Португалии.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/r/w780q1/files/f65/e5c/ff3/f65e5cff3ca141898e70c91d1a6e5f45.jpg"
+                                                                                 alt="image"
+                                                                                 data-src="https://habrastorage.org/files/f65/e5c/ff3/f65e5cff3ca141898e70c91d1a6e5f45.jpg"
+                                                                                 data-blurred="true"/><br/>
+                                                                            <em>Купюра номиналом в
+                                                                                100 бразильских
+                                                                                реалов</em><br/>
+                                                                            <br/>
+                                                                            Первый серебряный реал
+                                                                            был отчеканен в Кастилии
+                                                                            в XIV веке. В обращении
+                                                                            серебряные монеты
+                                                                            находились до середины
+                                                                            XIX века. В переводе с
+                                                                            латинского, «реал» —
+                                                                            «королевская монета».
+                                                                            Изначально на одной
+                                                                            стороне монеты
+                                                                            изображался герб
+                                                                            Испании, на другой —
+                                                                            корона в двойной
+                                                                            круговой надписи. Позже
+                                                                            на реверсе монеты стали
+                                                                            изображать погрудный
+                                                                            портрет короля. <br/>
+                                                                            <br/>
+                                                                            <h4>Южноафриканский
+                                                                                ранд</h4><br/>
+                                                                            Название национальной
+                                                                            денежной единицы ЮАР
+                                                                            ранд (рэнд) происходит
+                                                                            от названия горной цепи
+                                                                            Витватерсранд,
+                                                                            сокращенно — Ранд,
+                                                                            расположенной в
+                                                                            восточной части страны.
+                                                                            В конце XIX века в
+                                                                            районе хребта было
+                                                                            найдено одно из
+                                                                            крупнейших в мире
+                                                                            месторождений
+                                                                            золота.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/r/w1560/files/4c4/b22/477/4c4b2247747b4418b4bbd0aef623da89.png"
+                                                                                 alt="image"
+                                                                                 data-src="https://habrastorage.org/files/4c4/b22/477/4c4b2247747b4418b4bbd0aef623da89.png"/><br/>
+                                                                            <em>Купюра номиналом в
+                                                                                100 южноафриканских
+                                                                                рандов</em><br/>
+                                                                            <br/>
+                                                                            Валюта ранд была
+                                                                            выпущена в обращение
+                                                                            относительно недавно — в
+                                                                            1961 году, одновременно
+                                                                            с провозглашением
+                                                                            независимости ЮАР и ее
+                                                                            выходом из состава <a
+                                                                                href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B4%D1%80%D1%83%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0%D1%86%D0%B8%D0%B9">Британского
+                                                                            содружества</a>. <br/>
+                                                                            <br/>
+                                                                            <h4>Рупия</h4><br/>
+                                                                            Валюта в ходу в Индии и
+                                                                            ряде стран Южной Азии, в
+                                                                            частности, Индонезии,
+                                                                            Непале, республике
+                                                                            Маврикий, Пакистане, на
+                                                                            Сейшелах и Шри-Ланке. С
+                                                                            санскрита рупия
+                                                                            («rupya») переводится
+                                                                            как «чеканенное
+                                                                            серебро», «обработанное
+                                                                            серебро». Слово стало
+                                                                            использоваться в XVI
+                                                                            веке для обозначения
+                                                                            монет, введенных <a
+                                                                                href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D1%80-%D1%88%D0%B0%D1%85">Шер-шахом
+                                                                            Сури</a>. С тех пор
+                                                                            монета не выходила из
+                                                                            обращения, даже во
+                                                                            времена «британской
+                                                                            Индии». По другой версии
+                                                                            слово «рупия» происходит
+                                                                            от «rura» — «скот». На
+                                                                            территории Индии скот
+                                                                            долгое время выполнял
+                                                                            роль так называемых
+                                                                            натуральных денег.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/b91/fcb/d8a/b91fcbd8aa1940e296447510ca5b5a4c.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 индийских и 100
+                                                                                сейшельских
+                                                                                рупий</em><br/>
+                                                                            <br/>
+                                                                            Отличительной чертой
+                                                                            современных индийских
+                                                                            банкнот является то, что
+                                                                            на лицевой части каждой
+                                                                            из них изображен Махатм
+                                                                            Ганди. Различаются они
+                                                                            только цветом и
+                                                                            изображением на
+                                                                            оборотной стороне
+                                                                            купюры. Банкноты бывают
+                                                                            7 номиналов — от 5 до
+                                                                            1000 рупий, монеты — 6
+                                                                            номиналов — от 10 пайсов
+                                                                            до 5 рупий. В 2010 году
+                                                                            в Индии были выпущены
+                                                                            символические купюры
+                                                                            номиналом 0 рупий в
+                                                                            рамках программы по
+                                                                            борьбе с коррупцией.
+                                                                            Конечно, ими нельзя было
+                                                                            расплатиться, но авторы
+                                                                            инициативы — активисты
+                                                                            организации по борьбе с
+                                                                            коррупцией — призывала
+                                                                            давать полицейским и
+                                                                            чиновникам-вымогателям
+                                                                            взятки только такими
+                                                                            купюрами. По словам
+                                                                            антикоррупционеров,
+                                                                            банкноты стали очень
+                                                                            популярными среди
+                                                                            местных жителей.<br/>
+                                                                            <br/>
+                                                                            <h4>Китайский юань</h4>
+                                                                            <br/>
+                                                                            Китайский символ «圓»,
+                                                                            обозначающий название
+                                                                            национальной валюты,
+                                                                            буквально переводится
+                                                                            как «круглый» или
+                                                                            «круглая монета». Именно
+                                                                            такое название носили
+                                                                            серебряные монеты во
+                                                                            времена <a
+                                                                                href="https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%A6%D0%B8%D0%BD">династии
+                                                                            Цин</a>. Первые юани
+                                                                            появились в Китае в 1835
+                                                                            году и были изготовлены
+                                                                            из серебра.<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/files/518/22e/201/51822e2018554f96aea26fec7717f290.PNG"
+                                                                                 alt="image"/><br/>
+                                                                            <em>Купюры номиналом в
+                                                                                100 китайских юаней
+                                                                                и 1000 японских
+                                                                                иен</em><br/>
+                                                                            <br/>
+                                                                            <h4>Шекель</h4><br/>
+                                                                            С 1980 года шекель
+                                                                            является денежной
+                                                                            единицей Израиля. В
+                                                                            древности шекелем
+                                                                            называли весовую меру
+                                                                            для драгоценных металлов
+                                                                            — золота и серебра от 9
+                                                                            до 17 грамм в разные
+                                                                            периоды. Само же слово
+                                                                            «шекель» в переводе с
+                                                                            иврита означает
+                                                                            «взвешивать».<br/>
+                                                                            <br/>
+                                                                            <img src="https://habrastorage.org/r/w780q1/files/72c/c9d/6ed/72cc9d6ed44f4241ba99af169240d617.jpg"
+                                                                                 alt="image"
+                                                                                 data-src="https://habrastorage.org/files/72c/c9d/6ed/72cc9d6ed44f4241ba99af169240d617.jpg"
+                                                                                 data-blurred="true"/><br/>
+                                                                            <em>Купюра номиналом в
+                                                                                100 шекелей</em>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <DIV class="v-portal"
+                                                                     style="display:none;"></DIV>
+                                                            </div> <!----> <!----></div>
+
+                                                        </div>
+                                                    </article>
+                                                </div> <!----></div>
+
+                                        </div>
+                                        <DIV class="v-portal" style="display:none;"></DIV>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main> <!----></div>
+
+    <div class="vue-portal-target"></div>
+</div>
+<script>
+    window.__INITIAL_STATE__={"adblock":{"hasAcceptableAdsFilter":false,"hasAdblock":false},"articlesList":{"articlesList":{"393323":{"id":"393323","timePublished":"2016-04-27T13:50:08+00:00","isCorporative":false,"lang":"ru","titleHtml":"Как мировые валюты получили свои названия?","leadData":{"textHtml":"\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fc5c\u002F556\u002Fd05\u002Fc5c556d05fe94267802a59ffe3dc0f75.jpg\" alt=\"image\" align=\"left\"\u003EНа сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное гражданство, и около 160 валют, де-юре или де-факто используемых на различных территориях. Таким образом, по меньшей мере каждое второе государство имеет собственные деньги. О некоторых валютах вы даже слышали, другие используете каждый день. Но задумывались ли вы хоть однажды, почему рубль называют рублем? Чему обязан своим названием американский доллар? Меня эта тема очень заинтересовала, и я решил провести собственное мини-исследование. Под катом вы найдете истории о том, как некоторые мировые валюты получили свои названия. \u003Cbr\u003E","imageUrl":null,"buttonTextHtml":"Читать дальше →","image":null},"editorVersion":"1.0","postType":"article","postLabels":[],"author":{"id":"13173","alias":"cigulev","fullname":"Vitaliy Tsigulev","avatarUrl":"\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Favatars\u002F527\u002F64d\u002F2d7\u002F52764d2d710a78ff2cc1e1f1cd0957ff.jpg","speciality":"Financial Technologies","scoreStats":{"score":75,"votesCount":299},"rating":0,"relatedData":null,"contacts":[{"title":"Сайт","url":"https:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fcigulev\u002F","value":"https:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fcigulev\u002F","siteTitle":null,"favicon":null},{"title":"Instagram","url":"https:\u002F\u002Finstagram.com\u002Fvitaliy.tsigulev\u002F","value":"vitaliy.tsigulev","siteTitle":null,"favicon":null}],"authorContacts":[{"title":"Сайт","url":"https:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fcigulev\u002F","value":"https:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fcigulev\u002F","siteTitle":null,"favicon":null},{"title":"Instagram","url":"https:\u002F\u002Finstagram.com\u002Fvitaliy.tsigulev\u002F","value":"vitaliy.tsigulev","siteTitle":null,"favicon":null}],"paymentDetails":{"paymentYandexMoney":null,"paymentPayPalMe":"cigulev","paymentWebmoney":null}},"statistics":{"commentsCount":64,"favoritesCount":65,"readingCount":23967,"score":22,"votesCount":24,"votesCountPlus":23,"votesCountMinus":1},"hubs":[{"id":"19309","alias":"lib","type":"collective","title":"Профессиональная литература","titleHtml":"Профессиональная литература","isProfiled":true,"relatedData":null},{"id":"21928","alias":"finance","type":"collective","title":"Финансы в IT","titleHtml":"Финансы в IT","isProfiled":false,"relatedData":null}],"flows":[{"id":"1","alias":"develop","title":"Разработка","titleHtml":"Разработка"},{"id":"7","alias":"popsci","title":"Научпоп","titleHtml":"Научпоп"}],"relatedData":null,"textHtml":"\u003Cdiv xmlns=\"http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxhtml\"\u003E\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw780q1\u002Ffiles\u002Fc5c\u002F556\u002Fd05\u002Fc5c556d05fe94267802a59ffe3dc0f75.jpg\" alt=\"image\" align=\"left\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fc5c\u002F556\u002Fd05\u002Fc5c556d05fe94267802a59ffe3dc0f75.jpg\" data-blurred=\"true\"\u002F\u003EНа сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное гражданство, и около 160 валют, де-юре или де-факто используемых на различных территориях. Таким образом, по меньшей мере каждое второе государство имеет собственные деньги. О некоторых валютах вы даже слышали, другие используете каждый день. Но задумывались ли вы хоть однажды, почему рубль называют рублем? Чему обязан своим названием американский доллар? Меня эта тема очень заинтересовала, и я решил провести собственное мини-исследование. Под катом вы найдете истории о том, как некоторые мировые валюты получили свои названия. \u003Cbr\u002F\u003E\r\n\u003Ca name=\"habracut\"\u003E\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EРубль\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nДенежной единицей «рубль» пользуются в России, Белоруссии, непризнанной Приднестровской Молдавской Республике, а также ряде других непризнанных и частично признанных государств. Российскую сторублевку, наверняка, видел каждый из вас. А вот как выглядят купюры номиналом в 100 белорусских и 100 приднестровских рублей:\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw1560\u002Ffiles\u002F71f\u002F99e\u002F59a\u002F71f99e59a24449289e055f1f0cba333d.png\" alt=\"image\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F71f\u002F99e\u002F59a\u002F71f99e59a24449289e055f1f0cba333d.png\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nВерсией происхождения слова «рубль» существует множество. Но большинство из них сходятся в том, что название валюты происходит от глагола «рубить». Согласно \u003Ca href=\"http:\u002F\u002Fetymolog.ruslang.ru\u002Findex.php?act=contents&amp;book=vasmer\"\u003EЭтимологическому словарю Макса Фасмера\u003C\u002Fa\u003E, с древнерусского рубль — «обрубок». Первые упоминания рубля как денежной единицы встречаются в новгородских грамотах XIII века. Позже название закрепилось и использовалось вместо гривны. Древнерусская гривна представляла собой продолговатый серебряный слиток весом около 200 грамм и длиной около 20 см. Вот так он выглядел:\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw780q1\u002Ffiles\u002F27d\u002F01e\u002F60d\u002F27d01e60d3bd4f29b4a1f7bc6331c733.jpg\" alt=\"image\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F27d\u002F01e\u002F60d\u002F27d01e60d3bd4f29b4a1f7bc6331c733.jpg\" data-blurred=\"true\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nПо разным версиям, рубль соответствовал половине или четверти веса гривны. Большинство историков придерживаются мнения, что таких частей было все-таки 4. Подтверждение этой теории некоторые находят в арабском языке, где «рубъ» — четвертая часть чего-либо. Для того чтобы получить слиток, равный 1 рублю прут серебра (гривна) рубился на части. Отсюда и название «рубль» — «отрубить», «обрубок». Для обозначения веса на слитках серебра ставились зарубки.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nПо другой версии, свое название рубль получил благодаря технологии отливки новгородских гривен. Серебро заливалось в форму в 2 приема, из-за чего на слитке оставался шов, рубец, откуда также могло пойти название «рубль» — «слиток с рубцом».\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EДоллар\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nДоллар — наиболее распространенная в мире валюта. Ее используют в США, Австралии, Канаде, Новой Зеландии, Панаме, Эквадоре, Доминике, Пуэрто-Рико и ряде других стран.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F870\u002F2a5\u002F86e\u002F8702a586ec0c438e89acd3b11394e976.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 канадских и 100 австралийских долларов\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nСогласно \u003Ca href=\"http:\u002F\u002Fwww.oxforddictionaries.com\u002F\"\u003EOxford Dictionaries\u003C\u002Fa\u003E, слово доллар, а также словенский толар, находившийся в обращении до 2007 года, происходит от названия монеты «иоахимсталер» (joachimsthaler), укороченного до «Талер» (или «Далер» с фламандского языка). Монета получила названия в честь долины, в которой добывалось серебро для ее чеканки — «Долина Иоахима» (в наст. время это территория чешского города Яхимов). Со временем термин трансформировался и стал использоваться в других языках, особенно в нидерландском, а затем долларом стали называть монеты, которые использовались в испано-американских и британских североамериканских колониях во время американской войны за независимость. В 1792 году «доллар» был принят в качестве названия денежной единицы США.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EФунт\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nФунт — денежная единица Великобритании (фунт стерлингов). Египет, Ливан, Южный Судан, Судан и Сирия также называют свою валюту фунт (египетский фунт, ливанский фунт и т.д.). Для отличия британской валюты от одноименных валют других стран в официальных документах используют полную форму «фунт стерлингов».\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fc22\u002Ff9d\u002Feea\u002Fc22f9deeaa3b442f82f6c4bfa175e116.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 50 фунтов стерлингов и 100 египетских фунтов\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nБританский фунт происходит от латинского слова «pondus», что означает «вес». Существует несколько версий происхождения названия данной валюты. По одной из них название возникло в XII веке и буквально означало «фунт чистого серебра». Крупные покупки выражали в «фунтах стерлингов». 240 древних английских монет, «стерлингов», имели массу приблизительно в 1 тройский фунт.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EПесо\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nВ переводе с испанского «песо» буквально означает «вес». В настоящее время валюта используется в некоторых странах — бывших колониях Испании: Аргентине, Доминиканской Республике, Колумбии, Мексике, Кубе, Филиппинах, Чили и Уругвае.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F08b\u002Fef2\u002F268\u002F08bef2268d2146ce85a35ceecfe6053c.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 аргентинских и 100 мексиканских песо\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nКогда в начале XVI века испанцы пришли на американские земли, на территорию современной Мексики, как таковых денег там не было. Средством платежа местных жителей были какао-бобы. Тогда испанскому конкистадору Фернандо Кортесу был отдан приказ отливать в монеты все золото, какое он найдет на \u003Ca href=\"https:\u002F\u002Fru.wikipedia.org\u002Fwiki\u002F%D0%92%D0%B8%D1%86%D0%B5-%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F\"\u003E«новоиспанской» земле\u003C\u002Fa\u003E. Но Кортес ослушался. Из чистого золота он стал чеканить только часть монет, другие же были сделаны из меди с небольшой примесью золота. В результате появилось несколько типов монет, которые оценивались по весу золота в них. Самый дорогой — золотой песо, наименее ценный — песо из тепуске, т.е. из меди и золотой крошки. По некоторым данным оттуда же пошло и название песо.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EДинар\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nВалюту динар используют Алжир, Бахрейн, Ирак, Иордания, Кувейт, Ливия, Сербия, Македония, Тунис. Слово «динар» произошло от названия серебряной монеты «динарий», широко распространенной на территории Римской империи. В свою очередь слово «динарий» происходит от латинского «denarius» — «состоящий из десяти».\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fbf2\u002Fee9\u002F6b6\u002Fbf2ee96b651f4553a650434ceec90715.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 сербских и 20 бахрейнских динар\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nСлово «динар» упоминается также в Коране. Наряду с двумя другими терминами — дирхам и кантар — в священной книге мусульман динар используется для обозначения денежных эквивалентов.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EПольский злотый\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\n«Злотый» с польского «złoto» переводится как «золото». Впервые термин появился в XV веке для обозначения поступавших в Польшу золотых монет иностранной чеканки, главным образом, золотых дукатов.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EКрона\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nДенежная единица ряда европейских стран, в число которых входят Чехия, Дания, Исландия, Норвегия и Швеция. Слово «крона» происходит от латинского «corona» (англ. crown, нем. krone) и переводится как «корона». Именно корона, изображенная на монетах «куронндор» (первых кронах), отчеканенных во Франции в 1340 году, дала название новой валюте.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F4eb\u002Fd48\u002F40d\u002F4ebd4840de7b4951a6bb38ae998f4972.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 чешских и 100 шведских крон\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EЛира\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nВ настоящее время лира является национальной валютой Турции. До перехода на евро свою лиру имели еще 4 государства: Италия, Ватикан, Сан-Марино и Мальта.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F61c\u002F082\u002Fac5\u002F61c082ac5a794f5091acc92b00c06dc3.JPG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюра номиналом в 100 турецких лир\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nВ переводе «лира» (от лат. «libra») означает «фунт». Так же, как и британский фунт, название происходит от единицы веса — тройского фунта, служившего для взвешивания серебра.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EВенгерский форинт\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nНазвание валюты происходит от итальянского «флорина» — золотой монеты «fiorino d’oro» (золотой флорин), которую в середине XIII века начали чеканить во Флоренции. Век спустя в подражание флорину в Венгрии выпустили собственные монеты. Постепенно монеты приобрели оригинальный внешний вид, а название трансформировалось в «форинт». \u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EРиал\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nРиал — денежная единица Омана, Ирана, Катара, Саудовской Аравии и Йемена. С латыни «риал» («regalis») дословно переводится как «королевский». Название валюты пришло в арабский язык из Европы и обозначало популярные европейские монеты: талер, пиастр, соверен.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fe76\u002Fde0\u002Fa27\u002Fe76de0a271bc460e8ebf2bd1ce8ac209.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 иранских и 100 саудовских риалов\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EРеал\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nНе путать с риалом. Денежная единица Бразилии. До перехода на евро валютой пользовались также в Испании и Португалии.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw780q1\u002Ffiles\u002Ff65\u002Fe5c\u002Fff3\u002Ff65e5cff3ca141898e70c91d1a6e5f45.jpg\" alt=\"image\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Ff65\u002Fe5c\u002Fff3\u002Ff65e5cff3ca141898e70c91d1a6e5f45.jpg\" data-blurred=\"true\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюра номиналом в 100 бразильских реалов\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nПервый серебряный реал был отчеканен в Кастилии в XIV веке. В обращении серебряные монеты находились до середины XIX века. В переводе с латинского, «реал» — «королевская монета». Изначально на одной стороне монеты изображался герб Испании, на другой — корона в двойной круговой надписи. Позже на реверсе монеты стали изображать погрудный портрет короля. \u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EЮжноафриканский ранд\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nНазвание национальной денежной единицы ЮАР ранд (рэнд) происходит от названия горной цепи Витватерсранд, сокращенно — Ранд, расположенной в восточной части страны. В конце XIX века в районе хребта было найдено одно из крупнейших в мире месторождений золота.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw1560\u002Ffiles\u002F4c4\u002Fb22\u002F477\u002F4c4b2247747b4418b4bbd0aef623da89.png\" alt=\"image\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F4c4\u002Fb22\u002F477\u002F4c4b2247747b4418b4bbd0aef623da89.png\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюра номиналом в 100 южноафриканских рандов\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nВалюта ранд была выпущена в обращение относительно недавно — в 1961 году, одновременно с провозглашением независимости ЮАР и ее выходом из состава \u003Ca href=\"https:\u002F\u002Fru.wikipedia.org\u002Fwiki\u002F%D0%A1%D0%BE%D0%B4%D1%80%D1%83%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B0%D1%86%D0%B8%D0%B9\"\u003EБританского содружества\u003C\u002Fa\u003E. \u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EРупия\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nВалюта в ходу в Индии и ряде стран Южной Азии, в частности, Индонезии, Непале, республике Маврикий, Пакистане, на Сейшелах и Шри-Ланке. С санскрита рупия («rupya») переводится как «чеканенное серебро», «обработанное серебро». Слово стало использоваться в XVI веке для обозначения монет, введенных \u003Ca href=\"https:\u002F\u002Fru.wikipedia.org\u002Fwiki\u002F%D0%A8%D0%B5%D1%80-%D1%88%D0%B0%D1%85\"\u003EШер-шахом Сури\u003C\u002Fa\u003E. С тех пор монета не выходила из обращения, даже во времена «британской Индии». По другой версии слово «рупия» происходит от «rura» — «скот». На территории Индии скот долгое время выполнял роль так называемых натуральных денег.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002Fb91\u002Ffcb\u002Fd8a\u002Fb91fcbd8aa1940e296447510ca5b5a4c.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 индийских и 100 сейшельских рупий\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\nОтличительной чертой современных индийских банкнот является то, что на лицевой части каждой из них изображен Махатм Ганди. Различаются они только цветом и изображением на оборотной стороне купюры. Банкноты бывают 7 номиналов — от 5 до 1000 рупий, монеты — 6 номиналов — от 10 пайсов до 5 рупий. В 2010 году в Индии были выпущены символические купюры номиналом 0 рупий в рамках программы по борьбе с коррупцией. Конечно, ими нельзя было расплатиться, но авторы инициативы — активисты организации по борьбе с коррупцией — призывала давать полицейским и чиновникам-вымогателям взятки только такими купюрами. По словам антикоррупционеров, банкноты стали очень популярными среди местных жителей.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EКитайский юань\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nКитайский символ «圓», обозначающий название национальной валюты, буквально переводится как «круглый» или «круглая монета». Именно такое название носили серебряные монеты во времена \u003Ca href=\"https:\u002F\u002Fru.wikipedia.org\u002Fwiki\u002F%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%A6%D0%B8%D0%BD\"\u003Eдинастии Цин\u003C\u002Fa\u003E. Первые юани появились в Китае в 1835 году и были изготовлены из серебра.\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F518\u002F22e\u002F201\u002F51822e2018554f96aea26fec7717f290.PNG\" alt=\"image\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюры номиналом в 100 китайских юаней и 1000 японских иен\u003C\u002Fem\u003E\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Ch4\u003EШекель\u003C\u002Fh4\u003E\u003Cbr\u002F\u003E\r\nС 1980 года шекель является денежной единицей Израиля. В древности шекелем называли весовую меру для драгоценных металлов — золота и серебра от 9 до 17 грамм в разные периоды. Само же слово «шекель» в переводе с иврита означает «взвешивать».\u003Cbr\u002F\u003E\r\n\u003Cbr\u002F\u003E\r\n\u003Cimg src=\"https:\u002F\u002Fhabrastorage.org\u002Fr\u002Fw780q1\u002Ffiles\u002F72c\u002Fc9d\u002F6ed\u002F72cc9d6ed44f4241ba99af169240d617.jpg\" alt=\"image\" data-src=\"https:\u002F\u002Fhabrastorage.org\u002Ffiles\u002F72c\u002Fc9d\u002F6ed\u002F72cc9d6ed44f4241ba99af169240d617.jpg\" data-blurred=\"true\"\u002F\u003E\u003Cbr\u002F\u003E\r\n\u003Cem\u003EКупюра номиналом в 100 шекелей\u003C\u002Fem\u003E\u003C\u002Fdiv\u003E","tags":[{"titleHtml":"Мировые валюты"},{"titleHtml":"деньги"},{"titleHtml":"монеты"},{"titleHtml":"рубль"},{"titleHtml":"доллар"},{"titleHtml":"песо"},{"titleHtml":"динар"},{"titleHtml":"купюры"},{"titleHtml":"названия"},{"titleHtml":"история"}],"metadata":{"stylesUrls":[],"scriptUrls":[],"shareImageUrl":"https:\u002F\u002Fhabr.com\u002Fshare\u002Fpublication\u002F393323\u002F061f1e704dc32b417509284e53cc9a3f\u002F","shareImageWidth":1200,"shareImageHeight":630,"vkShareImageUrl":"https:\u002F\u002Fhabr.com\u002Fshare\u002Fpublication\u002F393323\u002F061f1e704dc32b417509284e53cc9a3f\u002F?format=vk","schemaJsonLd":"{\"@context\":\"http:\\\u002F\\\u002Fschema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\\u002F\\\u002Fhabr.com\\\u002Fru\\\u002Fpost\\\u002F393323\\\u002F\"},\"headline\":\"Как мировые валюты получили свои названия?\",\"datePublished\":\"2016-04-27T16:50:08+03:00\",\"dateModified\":\"2019-02-27T19:04:50+03:00\",\"author\":{\"@type\":\"Person\",\"name\":\"Vitaliy Tsigulev\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Fwebt\\\u002Fa_\\\u002Flk\\\u002F9m\\\u002Fa_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имею...\",\"url\":\"https:\\\u002F\\\u002Fhabr.com\\\u002Fru\\\u002Fpost\\\u002F393323\\\u002F#post-content-body\",\"about\":[\"h_lib\",\"h_finance\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Fc5c\\\u002F556\\\u002Fd05\\\u002Fc5c556d05fe94267802a59ffe3dc0f75.jpg\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F71f\\\u002F99e\\\u002F59a\\\u002F71f99e59a24449289e055f1f0cba333d.png\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F27d\\\u002F01e\\\u002F60d\\\u002F27d01e60d3bd4f29b4a1f7bc6331c733.jpg\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F870\\\u002F2a5\\\u002F86e\\\u002F8702a586ec0c438e89acd3b11394e976.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Fc22\\\u002Ff9d\\\u002Feea\\\u002Fc22f9deeaa3b442f82f6c4bfa175e116.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F08b\\\u002Fef2\\\u002F268\\\u002F08bef2268d2146ce85a35ceecfe6053c.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Fbf2\\\u002Fee9\\\u002F6b6\\\u002Fbf2ee96b651f4553a650434ceec90715.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F4eb\\\u002Fd48\\\u002F40d\\\u002F4ebd4840de7b4951a6bb38ae998f4972.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F61c\\\u002F082\\\u002Fac5\\\u002F61c082ac5a794f5091acc92b00c06dc3.JPG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Fe76\\\u002Fde0\\\u002Fa27\\\u002Fe76de0a271bc460e8ebf2bd1ce8ac209.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Ff65\\\u002Fe5c\\\u002Fff3\\\u002Ff65e5cff3ca141898e70c91d1a6e5f45.jpg\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F4c4\\\u002Fb22\\\u002F477\\\u002F4c4b2247747b4418b4bbd0aef623da89.png\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002Fb91\\\u002Ffcb\\\u002Fd8a\\\u002Fb91fcbd8aa1940e296447510ca5b5a4c.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F518\\\u002F22e\\\u002F201\\\u002F51822e2018554f96aea26fec7717f290.PNG\",\"https:\\\u002F\\\u002Fhabrastorage.org\\\u002Ffiles\\\u002F72c\\\u002Fc9d\\\u002F6ed\\\u002F72cc9d6ed44f4241ba99af169240d617.jpg\"]}","metaDescription":"На сегодняшний день в мире существует более 250 государств: 195 независимых государств, 10 стран с неопределенным статусом, 46 территорий с особым статусом, имеющих постоянное население и собственное...","mainImageUrl":null,"amp":true,"customTrackerLinks":[]},"polls":[],"commentsEnabled":true,"rulesRemindEnabled":false,"votesEnabled":true,"status":"published","plannedPublishTime":null,"checked":null,"hasPinnedComments":false,"isEditorial":false}},"articlesIds":{},"isLoading":false,"pagesCount":{},"route":{},"reasonsList":null,"view":"cards","lastVisitedRoute":{},"ssrCommentsArticleIds":[""],"karma":{}},"authorContribution":{"authors":{}},"betaTest":{"currentAnnouncement":null,"announcements":{},"announcementCards":null,"announcementComments":{},"announcementCommentThreads":{},"announcementCommentingStatuses":{},"archivedList":[]},"authorStatistics":{"articleRefs":{},"articleIds":{},"pagesCount":{},"route":{},"viewsCount":[],"maxStatsCount":{}},"career":{"seoLandings":[],"hubs":"lib,finance"},"comments":{"articleComments":{},"articlePinnedComments":{},"searchCommentsResults":null,"pagesCount":null,"commentAccess":{},"scrollParents":{},"pageArticleComments":{"lastViewedComment":0,"postId":null,"lastCommentTimestamp":"","moderated":[],"moderatedIds":[],"commentRoute":""}},"companies":{"companyRefs":{},"companyIds":{},"companyTopIds":{},"pagesCount":{},"companyProfiles":{},"companiesCategories":[],"companiesCategoriesTotalCount":0,"companiesWidgets":{},"companiesWorkers":{},"companiesFans":{},"route":{},"isLoading":false,"companyWorkersLoading":false,"companyFansLoading":false,"vacancies":{},"workplaceInfo":null},"companyAdmin":{"companyInfo":null,"companyInfoLoading":false,"faqArticles":null,"brandingPreviewImageUrl":null,"jivoStatus":0},"companiesContribution":{"hubs":{},"flows":{},"companyRefs":{}},"companyHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"conversation":{"messages":[],"respondent":null,"isLoadMore":false},"conversations":{"conversations":[],"unreadCount":0,"pagesCount":0},"desktopState":{"desktopFl":null,"desktopHl":null,"isChecked":false,"isLoginDemanded":false},"docs":{"menu":{},"articles":{},"mainMenu":[],"loading":{"main":false,"dropdown":false,"article":false}},"feature":{"isProbablyVisible":true},"flows":{"updates":{"countNewPostsBySubscription":null,"countNewPostsAll":71,"countNewNewsAll":46},"flows":[{"alias":"develop","id":"1","route":{"name":"FLOW_PAGE","params":{"flowName":"develop"}}},{"alias":"admin","id":"6","route":{"name":"FLOW_PAGE","params":{"flowName":"admin"}}},{"alias":"design","id":"2","route":{"name":"FLOW_PAGE","params":{"flowName":"design"}}},{"alias":"management","id":"3","route":{"name":"FLOW_PAGE","params":{"flowName":"management"}}},{"alias":"marketing","id":"4","route":{"name":"FLOW_PAGE","params":{"flowName":"marketing"}}},{"alias":"popsci","id":"7","route":{"name":"FLOW_PAGE","params":{"flowName":"popsci"}}}]},"global":{"isPwa":false,"device":"desktop","isHabrCom":true},"hubs":{"hubRefs":{},"hubIds":{},"pagesCount":{},"isLoading":false,"route":{}},"hubsBlock":{"hubRefs":{},"hubIds":{}},"i18n":{"fl":"ru","hl":"ru"},"info":{"infoPage":{},"isLoading":true},"location":{"urlStruct":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":null,"path":null,"href":""}},"me":{"user":null,"ppgDemanded":false,"karmaResetInfo":{"canReincarnate":null,"wasReincarnated":null,"currentScore":null},"notes":null},"mostReadingList":{"mostReadingListIds":[],"mostReadingListRefs":null,"promoPost":null},"pinnedPost":{"pinnedPost":null},"ppa":{"articles":{},"card":null,"transactions":null,"totalTransactions":null,"isAccessible":null},"projectsBlocks":{"activeBlocks":{"salary":"project-block-article"}},"promoData":{"isLoading":false,"hasLoaded":false,"featurer":null,"megaposts":null,"promoLinks":null,"promoPosts":null},"pullRefresh":{"shouldRefresh":false},"sandbox":{"articleIds":[],"articleRefs":{},"pagesCount":null,"route":{},"lastVisitedRoute":{},"isLoading":false},"search":{"searchQueryError":null},"settingsOther":{"inputs":{"uiLang":{"errors":[],"ref":null,"value":""},"articlesLangEnglish":{"errors":[],"ref":null,"value":false},"articlesLangRussian":{"errors":[],"ref":null,"value":false},"agreement":{"errors":[],"ref":null,"value":false},"email":{"errors":[],"ref":null,"value":true},"digest":{"errors":[],"ref":null,"value":true}}},"similarList":{"similarListIds":[],"similarListRefs":null},"ssr":{"error":null,"isDataLoaded":false,"isDataLoading":false,"isHydrationFailed":false,"isServer":false},"stories":{"stories":[{"id":"story-053","title":"Приглашаем в Технотекст 2022","author":{"title":"Технотекст","link":"https:\u002F\u002Fu.habr.com\u002Ftechnotext2022_author","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Foo\u002Fc4\u002F7k\u002Fooc47kzjfexykdsm2ebwj7on8x8.png"},"startTime":"2022-11-07T13:00:00+03:00","finishTime":"2022-12-06T23:59:59+03:00","lang":"ru","slides":[{"id":"story-053_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fh7\u002F58\u002Fcx\u002Fh758cxx0hui4gsn5pguk_p2yamy.png","button":null},{"id":"story-053_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fr3\u002F8w\u002F7y\u002Fr38w7yis1ljd7cddhqrs-8smbwc.png","button":null},{"id":"story-053_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fkb\u002F_y\u002Fvs\u002Fkb_yvsmidyvnymcvwehvns6k5vq.png","button":null},{"id":"story-053_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fq9\u002F_a\u002Fek\u002Fq9_aeksombxs5cy0nqorvz5whro.png","button":{"title":"Узнать больше","link":"https:\u002F\u002Ftechnotext.habr.com\u002F","colorType":"light"}}]},{"id":"story-052","title":"Сборка «Тяньгун» завершена","author":{"title":"Хабр Новости","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fjh\u002F3n\u002Fhy\u002Fjh3nhyovspbtyqndibvbttgsprc.png"},"startTime":"2022-11-07T12:00:00+03:00","finishTime":"2022-11-13T23:59:59+03:00","lang":"ru","slides":[{"id":"story-052_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fta\u002Fph\u002Fgu\u002Ftaphgusszb0qk1h1loahzvhvl0i.jpeg","button":null},{"id":"story-052_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fhp\u002Fu3\u002Frq\u002Fhpu3rqldhkadx4x4b-yldst8mci.jpeg","button":null},{"id":"story-052_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Frb\u002Fij\u002Fvn\u002Frbijvnazlhpyc-9vztpltab4wjw.jpeg","button":null},{"id":"story-052_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fdq\u002Fef\u002Frk\u002Fdqefrkbcv3s1wbbcnhv3cqftlp4.jpeg","button":{"title":"Подробности","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002Ft\u002F696766\u002F","colorType":"dark"}}]},{"id":"story-051","title":"IKEA судится из-за игры","author":{"title":"Хабр Новости","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fjh\u002F3n\u002Fhy\u002Fjh3nhyovspbtyqndibvbttgsprc.png"},"startTime":"2022-11-03T11:00:00+03:00","finishTime":"2022-11-10T23:59:59+03:00","lang":"ru","slides":[{"id":"story-051_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fon\u002F5m\u002Fra\u002Fon5mrar8wlo0fualkplhwwlaleu.jpeg","button":null},{"id":"story-051_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Ftd\u002Fc8\u002Fwd\u002Ftdc8wdqqr6qi8vf_su56xvn1pvg.jpeg","button":null},{"id":"story-051_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fpi\u002Fqc\u002Fgy\u002Fpiqcgyvh7yjb1shmtpm9kms4_xu.jpeg","button":{"title":"Подробности","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002Ft\u002F696946\u002F","colorType":"dark"}}]},{"id":"story-050","title":"Дата релиза Atomic Heart","author":{"title":"Хабр Новости","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fjh\u002F3n\u002Fhy\u002Fjh3nhyovspbtyqndibvbttgsprc.png"},"startTime":"2022-11-03T10:00:00+03:00","finishTime":"2022-11-10T23:59:59+03:00","lang":"ru","slides":[{"id":"story-050_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fnv\u002Fn-\u002Fjb\u002Fnvn-jbcy2a17_xhsy-nxlsqi0x8.jpeg","button":null},{"id":"story-050_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fol\u002F_u\u002Fto\u002Fol_utougr8o3_wlxvrvbbjulcye.jpeg","button":null},{"id":"story-050_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fl6\u002Flc\u002Fpn\u002Fl6lcpn6nk-olvwupdmvpqu3fxoe.jpeg","button":{"title":"Подробности","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002Ft\u002F696910\u002F","colorType":"dark"}}]},{"id":"story-049","title":"Зарплаты в IT в первой половине 2022","author":{"title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F9c6\u002Fc45\u002F8ec\u002F9c6c458ecaaf05cefada4fa4fb83a3b4.png"},"startTime":"2022-11-02T11:00:00+03:00","finishTime":"2022-11-07T23:59:59+03:00","lang":"ru","slides":[{"id":"story-049_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fhd\u002Fu7\u002F68\u002Fhdu768smwczu9_xosagphnehaoy.png","button":null},{"id":"story-049_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fnu\u002Ftd\u002Fz0\u002Fnutdz07ogrwj96kvygfuvhh06zq.png","button":null},{"id":"story-049_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fs7\u002Fdb\u002Fu5\u002Fs7dbu55nrhhy7b-nddg_e4nztqo.png","button":null},{"id":"story-049_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fmo\u002Fli\u002Fmq\u002Fmolimqyiblftvmusi-lsqqdazp0.png","button":null},{"id":"story-049_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F5q\u002Fev\u002Frb\u002F5qevrb6qa829jekkbs_lgxtu4vg.png","button":null},{"id":"story-049_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fix\u002Ftv\u002Fii\u002Fixtviif4dxpmd-rry_iqb3dmso0.png","button":{"title":"Узнать больше","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Farticle\u002F679698\u002F","colorType":"dark"}}]},{"id":"story-048","title":"Недельный топ годноты от компаний","author":{"title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F7e4\u002F7b8\u002Fe31\u002F7e47b8e31d0efe9f398461278a16a357.png"},"startTime":"2022-11-02T10:00:00+03:00","finishTime":"2022-11-09T23:59:59+03:00","lang":"ru","slides":[{"id":"story-048_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F4c\u002Fp_\u002F4l\u002F4cp_4ltj1yhsykv_qkn8tlajc8o.jpeg","button":null},{"id":"story-048_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F7i\u002Ffj\u002Fuj\u002F7ifjujbly48-ldjox3buq6xm9tw.jpeg","button":{"title":"Читать перевод","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fdcmiran\u002Fblog\u002F693842\u002F","colorType":"light"}},{"id":"story-048_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fkj\u002Fwp\u002Fcp\u002Fkjwpcp9dkgp2ascwzy2yzvipw7a.jpeg","button":{"title":"Узнать новости","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fselectel\u002Fblog\u002F693096\u002F","colorType":"light"}},{"id":"story-048_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fl_\u002Fvf\u002Fak\u002Fl_vfakal7u0psmzapi6plvb2ang.jpeg","button":{"title":"Подробности дела","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fbelayaraduga\u002Fblog\u002F695318\u002F","colorType":"light"}},{"id":"story-048_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fmq\u002Fgv\u002F1g\u002Fmqgv1gwqk29lf-sba_tvvtn8eze.jpeg","button":{"title":"Подёргать ногами","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fgetmatch\u002Fblog\u002F693254\u002F","colorType":"light"}},{"id":"story-048_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fgr\u002Fpw\u002F1h\u002Fgrpw1hhdbwp9yrmdfjid3mcig3s.jpeg","button":{"title":"Читать тест","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Flamptest\u002Fblog\u002F695650\u002F","colorType":"light"}},{"id":"story-048_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F_a\u002Fyf\u002Fea\u002F_ayfea0grtqnd9pywm3viueivbi.jpeg","button":{"title":"Смотреть фото","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fgeltek\u002Fblog\u002F692996\u002F","colorType":"light"}},{"id":"story-048_8","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F5h\u002Fpr\u002Fzn\u002F5hprzni9kvcyaki4qogcshfc5fs.jpeg","button":{"title":"Заглянуть в будущее","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fkaspersky\u002Fblog\u002F691914\u002F","colorType":"light"}}]},{"id":"story-047","title":"Куда уезжают айтишники","author":{"title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F9c6\u002Fc45\u002F8ec\u002F9c6c458ecaaf05cefada4fa4fb83a3b4.png"},"startTime":"2022-11-01T11:00:00+03:00","finishTime":"2022-11-12T23:59:59+03:00","lang":"ru","slides":[{"id":"story-047_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fpz\u002Fff\u002Fbb\u002Fpzffbbzrwpmguztzg-jpza_i8i4.png","button":null},{"id":"story-047_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fpx\u002Fbw\u002Fqa\u002Fpxbwqa9gjjbhndylasv_-yuepde.png","button":null},{"id":"story-047_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fvy\u002Fea\u002Flz\u002Fvyealzfdpd7bfriiuvyykeg9ztu.png","button":null},{"id":"story-047_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fwx\u002Fcs\u002Fkt\u002Fwxcskt_ukcvl70cu1gzwd9t3854.png","button":null},{"id":"story-047_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F9g\u002Fcc\u002Fub\u002F9gccubslhej7de5jul6gfjjofbo.png","button":{"title":"Читать","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F695302\u002F","colorType":"dark"}}]},{"id":"story-046","title":"Обсерватория на Кавказе, где наблюдают за солнцем","author":{"title":"Geek Travel","link":null,"logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Flx\u002Fdx\u002F1j\u002Flxdx1jswzf3dnisg2hh1h80-wjg.png"},"startTime":"2022-11-01T10:00:00+03:00","finishTime":"2022-11-20T23:59:59+03:00","lang":"ru","slides":[{"id":"story-046_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fv-\u002Fyh\u002Fvk\u002Fv-yhvk1as5vlinwjhdpujchwe9u.jpeg","button":null},{"id":"story-046_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fwi\u002F_5\u002Fuv\u002Fwi_5uvclpiix5drdy6ffwqdo1t8.png","button":null},{"id":"story-046_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Faz\u002Fyp\u002F0j\u002Fazyp0jvmjxqquvenzkkirol4fk8.jpeg","button":null},{"id":"story-046_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fj1\u002Ffn\u002Fwi\u002Fj1fnwiyvjky9iwqhjp-mrybnamg.jpeg","button":null},{"id":"story-046_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fl9\u002F6f\u002Fzr\u002Fl96fzrwwnlfat36nqhtch5hajfc.jpeg","button":null},{"id":"story-046_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fz4\u002Fos\u002Fqn\u002Fz4osqng77eedkh0la5tq8clqw0k.jpeg","button":null}]},{"id":"story-045","title":"Что делает стол умным","author":{"title":"Tabula Sense","link":null,"logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fiz\u002Fpa\u002Fsn\u002Fizpasnidhnr4kyq2bzsu06xzjfg.png"},"startTime":"2022-10-31T16:00:00+03:00","finishTime":"2022-11-20T23:59:59+03:00","lang":"ru","slides":[{"id":"story-045_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fms\u002Fb5\u002F40\u002Fmsb5402d3egbeqwu0umgemq92we.png","button":{"title":"Больше умных решений","link":"https:\u002F\u002Fu.habr.com\u002Ftabulasense_stories","colorType":"dark"}},{"id":"story-045_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fbq\u002Flp\u002Frr\u002Fbqlprrvwkivqjohvki1jevi_scg.png","button":null},{"id":"story-045_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fag\u002Fjd\u002Fl7\u002Fagjdl7cvrjfdh1cvx0_utdal4tg.png","button":null},{"id":"story-045_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fuj\u002Fjq\u002Fm2\u002Fujjqm2lcfexixly_bm-hhhgz3ii.png","button":null},{"id":"story-045_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fbo\u002Ffc\u002Fkx\u002Fbofckxe5nva7zdruvuhxbamwd8a.png","button":null},{"id":"story-045_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fcu\u002Fr6\u002Fcj\u002Fcur6cjuspdsyqsn78-h86so29oy.png","button":null},{"id":"story-045_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F1r\u002Fiq\u002Fde\u002F1riqdesw-zxkhejgtzlg6ccfrag.png","button":null},{"id":"story-045_8","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fkh\u002Fno\u002Fjj\u002Fkhnojjenquhxxlpbv07ksqrotoa.png","button":null},{"id":"story-045_9","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fwu\u002Fqk\u002F7k\u002Fwuqk7k8icbcsdqux1-brmyhbfxq.png","button":{"title":"Го на предзаказ","link":"https:\u002F\u002Fu.habr.com\u002Ftabulasense_boom_stories","colorType":"dark"}}]},{"id":"story-041","title":"Статус у компаний с аккредитацией Минцифры","author":{"title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F9c6\u002Fc45\u002F8ec\u002F9c6c458ecaaf05cefada4fa4fb83a3b4.png"},"startTime":"2022-10-28T10:00:00+03:00","finishTime":"2022-11-27T23:59:59+03:00","lang":"ru","slides":[{"id":"story-041_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fxx\u002Fb3\u002F5v\u002Fxxb35vnosdrzknksrgcgxzf6vrm.png","button":null},{"id":"story-041_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fym\u002Fkb\u002Fuh\u002Fymkbuhnlzb2cvsogrukwavextbs.png","button":null},{"id":"story-041_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F6i\u002Fxr\u002Fvy\u002F6ixrvykr26-rq_j2fsqyxxly44e.png","button":null},{"id":"story-041_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F6i\u002Fxr\u002Fvy\u002F6ixrvykr26-rq_j2fsqyxxly44e.png","button":{"title":"Читать","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fnews\u002Ft\u002F692568\u002F","colorType":"dark"}}]},{"id":"story-039","title":"Кем работать в IT: Python-разработчик","author":{"title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F9c6\u002Fc45\u002F8ec\u002F9c6c458ecaaf05cefada4fa4fb83a3b4.png"},"startTime":"2022-10-27T10:00:00+03:00","finishTime":"2022-11-25T23:59:59+03:00","lang":"ru","slides":[{"id":"story-039_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F1u\u002Fj6\u002Ftl\u002F1uj6tlyefwos647gk8zpe2evvr0.png","button":null},{"id":"story-039_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F_f\u002F8p\u002F9e\u002F_f8p9ezgiegypwpe0jzvlazy4us.png","button":null},{"id":"story-039_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fz9\u002Fz4\u002Fdq\u002Fz9z4dqhyy63dphazfklmdjnkhqw.png","button":null},{"id":"story-039_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fx0\u002F40\u002Fai\u002Fx040ai-xdyebig_va2gfj9urrmw.png","button":null},{"id":"story-039_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F7j\u002Fdj\u002F_l\u002F7jdj_lm6ojrn9orveb1xfgfdfoa.png","button":{"title":"Читать","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr_career\u002Fblog\u002F693758\u002F","colorType":"dark"}}]},{"id":"story-038","title":"Испытания на Yandex Cup 2022","author":{"title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F","logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F7e4\u002F7b8\u002Fe31\u002F7e47b8e31d0efe9f398461278a16a357.png"},"startTime":"2022-10-26T11:00:00+03:00","finishTime":"2022-11-07T23:59:59+03:00","lang":"ru","slides":[{"id":"story-038_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fsp\u002Fpm\u002Fwr\u002Fsppmwrmp95noveqdtg90gfc8qco.png","button":{"title":"Зарегистрироваться","link":"https:\u002F\u002Fu.habr.com\u002Fyandexcup22_stories","colorType":"light"}},{"id":"story-038_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fkq\u002Fjs\u002Fov\u002Fkqjsov8uaghbmld1yoykaeoz0h0.png","button":null},{"id":"story-038_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Foh\u002F_4\u002Fun\u002Foh_4un884xbzllvmccyt9y9gvzw.png","button":null},{"id":"story-038_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F9e\u002Fqy\u002Fkf\u002F9eqykfku9lx94odrpv3-p2lzbsu.png","button":null},{"id":"story-038_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Ffb\u002Fmv\u002Fkl\u002Ffbmvklva8kxlklgm0d-5_chqupw.png","button":null},{"id":"story-038_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fij\u002Fvz\u002Fw9\u002Fijvzw9fz_0mum73lr4rmlc0kpym.png","button":{"title":"Стать участником","link":"https:\u002F\u002Fu.habr.com\u002Fyandexcup22_stories","colorType":"light"}},{"id":"story-038_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F5i\u002Fj-\u002Fab\u002F5ij-abka2mbyfv4w0g1w4o3xx4e.png","button":{"title":"Стать участником","link":"https:\u002F\u002Fu.habr.com\u002Fyandexcup22_stories","colorType":"light"}}]},{"id":"story-037","title":"Почему программисты пишут? 2 часть","author":{"title":"Технотекст","link":"https:\u002F\u002Fu.habr.com\u002Ftechnotext2022_author","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Foo\u002Fc4\u002F7k\u002Fooc47kzjfexykdsm2ebwj7on8x8.png"},"startTime":"2022-10-26T10:00:00+03:00","finishTime":"2022-11-25T23:59:59+03:00","lang":"ru","slides":[{"id":"story-037_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fqa\u002Fqx\u002Fhc\u002Fqaqxhcpai_64wgtayfn4zt6vuos.png","button":null},{"id":"story-037_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fti\u002Fab\u002Fr5\u002Ftiabr5qd8offrn_s5lekmxfftno.jpeg","button":null},{"id":"story-037_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F7v\u002F07\u002Frn\u002F7v07rnpodj-clkgbp4q_szfv2gu.jpeg","button":null},{"id":"story-037_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fer\u002F5o\u002Fqk\u002Fer5oqkoftrfppkp3coimuezvcym.jpeg","button":null},{"id":"story-037_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fxj\u002F8b\u002Fkv\u002Fxj8bkv3goox10lbm18ijzoold70.jpeg","button":null},{"id":"story-037_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fd1\u002Fo3\u002F3n\u002Fd1o33ncekhvllfzigdqssseie7q.jpeg","button":{"title":"Хочу на Технотекст 2022!","link":"https:\u002F\u002Fu.habr.com\u002Ftechnotext_stories_01","colorType":"light"}}]},{"id":"story-036","title":"Почему программисты пишут? 1 часть","author":{"title":"Технотекст","link":"https:\u002F\u002Fu.habr.com\u002Ftechnotext2022_author","logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Foo\u002Fc4\u002F7k\u002Fooc47kzjfexykdsm2ebwj7on8x8.png"},"startTime":"2022-10-25T11:00:00+03:00","finishTime":"2022-11-25T23:59:59+03:00","lang":"ru","slides":[{"id":"story-036_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fcn\u002Ft2\u002Fwe\u002Fcnt2wek2k4fqf8ttidnisqplvvu.png","button":null},{"id":"story-036_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fif\u002Fqz\u002Fc6\u002Fifqzc6m-9o6x0iqo6miwf4oug3m.jpeg","button":null},{"id":"story-036_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fqc\u002Fog\u002Fva\u002Fqcogvahks1_jii9r3xtkpgin4sq.jpeg","button":null},{"id":"story-036_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fcd\u002Fcy\u002Fnb\u002Fcdcynb5jekmbcm60qmarzydroli.jpeg","button":null},{"id":"story-036_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fli\u002F7a\u002Fne\u002Fli7anevj8eheziz7bpglee4gyjy.jpeg","button":null},{"id":"story-036_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F8a\u002Fib\u002Fjh\u002F8aibjh3bsnjoc67lt-vm8eadhus.jpeg","button":{"title":"Хочу на Технотекст 2022!","link":"https:\u002F\u002Fu.habr.com\u002Ftechnotext_stories_01","colorType":"light"}}]},{"id":"story-026","title":"Эйчары, про которых говорят айтишники","author":{"logo":"https:\u002F\u002Fhsto.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F9c6\u002Fc45\u002F8ec\u002F9c6c458ecaaf05cefada4fa4fb83a3b4.png","title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002F"},"startTime":"2022-10-19T10:00:01+03:00","finishTime":"2022-11-19T23:59:59+03:00","lang":"ru","slides":[{"id":"story-026_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fzv\u002Fmw\u002Fo1\u002Fzvmwo1lvya2s_3or3gwpndagazi.png","button":null},{"id":"story-026_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fdw\u002Fna\u002Fdo\u002Fdwnadoezzz1v3gporzfzjoz_f2o.png","button":null},{"id":"story-026_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fje\u002Fwk\u002F7k\u002Fjewk7kd9owcugggis6h_cglptqk.png","button":null},{"id":"story-026_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F-d\u002Fmp\u002Fx-\u002F-dmpx-edcxrnat5ojaf46ilitow.png","button":null},{"id":"story-026_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fo6\u002F69\u002Ffe\u002Fo669fe4xiycxbq7h4jhrslxfc6a.jpeg","button":{"title":"Смотреть номинатов","link":"https:\u002F\u002Fhraward.habr.com\u002F","colorType":"light"}}]},{"id":"story-025","title":"InSight попал в песчаную бурю на Марсе","author":{"logo":"https:\u002F\u002Fhsto.org\u002Fwebt\u002Fjh\u002F3n\u002Fhy\u002Fjh3nhyovspbtyqndibvbttgsprc.png","title":"Хабр Новости","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002F"},"startTime":"2022-10-19T10:00:00+03:00","finishTime":"2022-11-18T23:59:59+03:00","lang":"ru","slides":[{"id":"story-025_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fu9\u002Fnb\u002F50\u002Fu9nb5028bbp5e3qgwwrtcx9fqoq.jpeg","button":null},{"id":"story-025_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F_e\u002Fmx\u002Fy4\u002F_emxy4tq3vh8mln2utnchs_4b6u.jpeg","button":null},{"id":"story-025_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fbj\u002Fjl\u002Flk\u002Fbjjllkt9ksdhxg4lmsvkefessaq.jpeg","button":null},{"id":"story-025_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fc6\u002F9v\u002Fsz\u002Fc69vsza5-ifoffjs3nq7n2hwtjy.jpeg","button":{"title":"Подробности","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fnews\u002Ft\u002F692376\u002F","colorType":"dark"}}]},{"id":"story-024","title":"Топ-5 докладов HighLoad++ 2022 открыты для Хабра","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F3g\u002Ffe\u002F1i\u002F3gfe1iq1tkzs1w0dw4y7hg8tubg.png","title":"Конференции Олега Бунина","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Foleg-bunin\u002Fblog\u002F"},"startTime":"2022-10-18T11:00:00+03:00","finishTime":"2022-11-18T23:59:59+03:00","lang":"ru","slides":[{"id":"story-024_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Ft4\u002Fy7\u002Fy0\u002Ft4y7y0wvcjebqlc3cvfwdb6rvvy.png","button":null},{"id":"story-024_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fbr\u002Fux\u002Fu2\u002Fbruxu2o8amrey7feyqt0puilcoi.png","button":{"title":"Смотреть","link":"https:\u002F\u002Fu.habr.com\u002Fontico_story_1","colorType":"light"}},{"id":"story-024_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Ffa\u002Fx7\u002F3x\u002Ffax73xlzdtgcnpfb-pe64niicf4.png","button":{"title":"Смотреть","link":"https:\u002F\u002Fu.habr.com\u002Fontico_story_2","colorType":"light"}},{"id":"story-024_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fla\u002Fex\u002Fet\u002Flaexetvijifo9shnsrz53ohvgjk.png","button":{"title":"Смотреть","link":"https:\u002F\u002Fu.habr.com\u002Fontico_story_3","colorType":"light"}},{"id":"story-024_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fgb\u002F5f\u002Fpf\u002Fgb5fpfddol9nk_x9irp3mfxc5uo.png","button":{"title":"Смотреть","link":"https:\u002F\u002Fu.habr.com\u002Fontico_story_4","colorType":"light"}},{"id":"story-024_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fn6\u002Frt\u002Fth\u002Fn6rtthzhhujjtuq6sewsvjn5z9i.png","button":{"title":"Смотреть","link":"https:\u002F\u002Fu.habr.com\u002Fontico_story_5","colorType":"light"}},{"id":"story-024_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fp4\u002Fgx\u002F-1\u002Fp4gx-1zxqvuw5bs6fgll4qxx1dy.png","button":{"title":"Купить билет","link":"https:\u002F\u002Fu.habr.com\u002Fontico_buyticket","colorType":"light"}}]},{"id":"story-020","title":"Позовите автора!","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F7e4\u002F7b8\u002Fe31\u002F7e47b8e31d0efe9f398461278a16a357.png","title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F"},"startTime":"2022-10-17T10:00:00+03:00","finishTime":"2022-11-17T23:59:59+03:00","lang":"ru","slides":[{"id":"story-020_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fep\u002Fhm\u002F83\u002Fephm83ondrxnhk3iw4z86cfkiuy.jpeg","button":null},{"id":"story-020_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fwl\u002Fad\u002Fop\u002Fwladopgvhf9pim6glmaw-3bf4ki.jpeg","button":null},{"id":"story-020_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fv0\u002Fmd\u002F9e\u002Fv0md9efp-gsj_bveto7uwikjeoy.jpeg","button":null},{"id":"story-020_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fwg\u002F4b\u002Ffh\u002Fwg4bfh-ogzwe2s1r458z_rnxioi.jpeg","button":null},{"id":"story-020_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fqa\u002Fa4\u002Ft5\u002Fqaa4t529b-asirgqt8pldojyum8.jpeg","button":null},{"id":"story-020_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fnl\u002F3k\u002Flk\u002Fnl3klkk5gqhpwlypeordbro1v3e.jpeg","button":null}]},{"id":"story-012","title":"IT-конференция мечты","author":{"logo":"https:\u002F\u002Fhsto.org\u002Fgetpro\u002Fhabr\u002Fcompany\u002F7e4\u002F7b8\u002Fe31\u002F7e47b8e31d0efe9f398461278a16a357.png","title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F"},"startTime":"2022-10-11T14:00:04+03:00","finishTime":"2022-11-11T11:59:59+03:00","lang":"ru","slides":[{"id":"story-012_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fu-\u002Fsj\u002Fpw\u002Fu-sjpwjbr4ltc3mtjcowg8t3_r8.png","button":null},{"id":"story-012_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002F57\u002Fdw\u002Fuq\u002F57dwuqw1ahtuupcd826foang-yu.png","button":null},{"id":"story-012_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fak\u002Fmh\u002Fdg\u002Fakmhdgcqaaczeirau34gcdefpeu.png","button":null},{"id":"story-012_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fwebt\u002Fde\u002Fab\u002Fph\u002Fdeabphss6fwltqbvokj564jr7zq.png","button":{"title":"Хабрателеграм","link":"https:\u002F\u002Ft.me\u002Fhabr_com","colorType":"light"}}]}]},"technotext":{"years":[],"technotextDocForNominees":null,"technotextDocForWinners":null,"technotextInfo":{},"technotextInfoLoading":false,"technotextWinners":{},"technotextWinnersLoading":false},"userHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"userInvites":{"availableInvites":0,"usedInvitesIds":[],"usedInvitesRefs":{},"usedInvitesPagesCount":0,"unusedInvitesIds":[],"unusedInvitesRefs":{},"unusedInvitesPagesCount":0},"users":{"authorRefs":{},"authorIds":{},"pagesCount":{},"authorProfiles":{},"userHubs":{},"userInvitations":{},"authorFollowers":{},"authorFollowed":{},"userSpecialization":{},"karmaStats":[],"statistics":null,"isLoading":false,"authorFollowersLoading":false,"authorFollowedLoading":false,"userHubsLoading":false,"userInvitationsLoading":false,"route":{}},"viewport":{"prevScrollY":{},"scrollY":0,"width":0},"tracker":{"items":{},"pagesCache":{},"markedViewedSilently":{},"markedRead":{},"unreadCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null},"unviewedCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null}}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());
+</script>
+<script src="https://assets.habr.com/habr-web/js/chunk-vendors.6a222726.js" defer></script>
+<script src="https://assets.habr.com/habr-web/js/app.e9ad2c70.js" defer></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-726094-1"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+</script>
+
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(24049213, "init", {
+      defer:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:false,
+    });
+
+</script>
+<noscript>
+    <div>
+        <img src="https://mc.yandex.ru/watch/24049213" style="position:absolute; left:-9999px;"
+             alt=""/>
+    </div>
+</noscript>
+
+<script type="text/javascript">
+      window.addEventListener('load', function () {
+        setTimeout(() => {
+          const img = new Image();
+          img.src = 'https://vk.com/rtrg?p=VK-RTRG-421343-57vKE';
+        }, 0);
+      });
+
+</script>
+
+<script src="/js/ads.js" onload="window['zhY4i4nJ9K'] = true"></script>
+</div>
+</body>
+</html>

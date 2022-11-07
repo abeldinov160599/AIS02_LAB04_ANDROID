@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="WhatIsCurrency">Понятие валюты</string>
+    <string name="HistoryOfCurrency">История валюты</string>
+    <string name="KZCurrency">Валюта РК</string>
+    <string name="prog">     Программы</string>
+
+</resources>

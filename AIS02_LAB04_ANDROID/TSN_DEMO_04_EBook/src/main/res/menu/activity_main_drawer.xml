@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/WhatIsCurrency"
+            android:icon="@drawable/currency"
+            android:title="@string/WhatIsCurrency" />
+        <item
+            android:id="@+id/HistoryOfCurrency"
+            android:icon="@drawable/currency"
+            android:title="@string/HistoryOfCurrency" />
+        <item
+            android:id="@+id/KZCurrency"
+            android:icon="@drawable/currency"
+            android:title="@string/KZCurrency" />
+    </group>
+
+
+    <item android:title="@string/laws">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/laws_kz_l1"
+                    android:icon="@drawable/ic_error_outline_black_24dp"
+                    android:title="@string/laws_kz_l1" />
+                <item
+                    android:id="@+id/laws_ru_l1"
+                    android:icon="@drawable/ic_error_outline_black_24dp"
+                    android:title="@string/laws_ru_l1" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/additional">
+        <menu>
+            <item
+                android:id="@+id/nav_view1"
+                android:icon="@drawable/exchange_rates"
+                android:title="@string/prism_break" />
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_drafts_black_24dp"
+                android:title="@string/send_mail" />
+        </menu>
+    </item>
+
+</menu>
